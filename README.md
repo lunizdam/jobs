@@ -1,18 +1,25 @@
 Ce projet est une application web de site de petites annonces créée avec React. Elle comporte trois pages principales :
 
+
 La page Create : Cette page permet de créer une annonce.
 
  Vous pouvez remplir les champs demandés et cliquer sur le bouton Enregistrer pour créer une nouvelle annonce.
+ 
 
 La page Home : Cette page est la page principale qui affiche toutes les annonces situées dans la base de données MongoDB par le biais de votre API REST.
 
+
 La page Job : Cette page permet d'afficher le descriptif de l'annonce sur laquelle vous avez cliqué.
+
+
 
 Problème actuel:
 
 Il y a un problème dans le code de l'application : si vous cliquez sur n'importe quelle annonce, cela affiche toujours la première annonce.
 
  En conséquence, la fonction Update et la fonction Recherche ne fonctionnent pas car l'ID n'est pas correct.
+ 
+ 
 
 Fonctionnalités:
 
@@ -22,6 +29,7 @@ Le bouton Création d'annonces permet de se rendre sur la page Create pour crée
 
 Une fois le bouton ENREGISTRER cliqué il faut revenir en arrière et actualiser la page principale pour que l'annonce apparaisse.
 Le bouton Load More fonctionne correctement et permet d'afficher 12 annonces supplémentaires.
+
 
 Pour utiliser ce repo :
 
