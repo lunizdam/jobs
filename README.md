@@ -46,4 +46,4 @@ Remarques
 Lancez en premier mon API REST (job-router-api) pour que cette application fonctionne correctement.
 
 
-Rappel :N'oubliez pas de rafraîchir la page principale pour voir les nouvelles annonces lorsque vous en créez une.
+Rappel:N'oubliez pas de rafraîchir la page principale pour voir les nouvelles annonces lorsque vous en créez une.
