@@ -1,0 +1,77 @@
+.singleJob {
+    width: 500px;
+    height: 1000px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: auto;
+    line-height: 1;
+    margin-top: 50px;
+    position: relative;
+}
+
+.company {
+    font-weight: bold;
+
+}
+
+h4 {
+    color: #ab41a2;
+}
+
+.ulNumbers {
+    list-style-type: decimal;
+
+}
+
+.apply-btn {
+    position: absolute;
+    top: 10px;
+
+    right: 10px;
+
+    background-color: rgb(156, 136, 219);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.apply-btn:hover {
+    background-color: rgb(189, 180, 219);
+}
+
+.apply-btn2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(156, 136, 219);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.apply-btn2:hover {
+    background-color: rgb(189, 180, 219);
+}
+
+.lienRetour {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+/* bouton edit */
+.edit-button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

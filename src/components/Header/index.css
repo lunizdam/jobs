@@ -1,0 +1,21 @@
+header {
+    background-color: #5964E0;
+
+    border-radius: 0 0 0 100px;
+
+    padding: 50px;
+
+}
+
+.logo {
+    font-size: 24px;
+    text-align: left;
+    font-weight: bold;
+
+    color: white;
+
+}
+
+.creationAnnonce {
+    background-color: darkkhaki;
+}

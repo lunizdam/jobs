@@ -1,0 +1,20 @@
+.jobsection {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.btn {
+    margin: auto;
+}
+
+.btn-loadmore {
+    padding: 20px;
+    background-color: rgb(172, 127, 214);
+    border-radius: 10px;
+}
+
+.btn-loadmore:hover {
+    background-color: rgb(208, 193, 221);
+}

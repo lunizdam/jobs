@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+Ce projet est une application web de site de petites annonces créée avec React. Elle comporte trois pages principales :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+La page Create : Cette page permet de créer une annonce.
 
-## Available Scripts
+ Vous pouvez remplir les champs demandés et cliquer sur le bouton Enregistrer pour créer une nouvelle annonce.
 
-In the project directory, you can run:
+La page Home : Cette page est la page principale qui affiche toutes les annonces situées dans la base de données MongoDB par le biais de votre API REST.
 
-### `npm start`
+La page Job : Cette page permet d'afficher le descriptif de l'annonce sur laquelle vous avez cliqué.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Problème actuel:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Il y a un problème dans le code de l'application : si vous cliquez sur n'importe quelle annonce, cela affiche toujours la première annonce.
 
-### `npm test`
+ En conséquence, la fonction Update et la fonction Recherche ne fonctionnent pas car l'ID n'est pas correct.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Fonctionnalités:
 
-### `npm run build`
+Le bouton Delete permet de supprimer l'annonce sur laquelle vous avez cliqué et de rafraîchir la page une fois la suppression effectuée.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Le bouton Création d'annonces permet de se rendre sur la page Create pour créer une nouvelle annonce. Remplissez les champs. La date est automatiquement indiquée, le logo sera généré .
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Une fois le bouton ENREGISTRER cliqué il faut revenir en arrière et actualiser la page principale pour que l'annonce apparaisse.
+Le bouton Load More fonctionne correctement et permet d'afficher 12 annonces supplémentaires.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Pour utiliser ce repo :
 
-### `npm run eject`
+Clonez ce repo sur votre machine locale
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Installez les dépendances en tapant npm install dans votre terminal
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Lancez l'application en tapant npm start dans votre terminal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Vous serez automatiquement dirigé sur http://localhost:3000 pour utiliser l'application
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Remarques
 
-## Learn More
+Lancez en premier mon API REST (job-router-api) pour que cette application fonctionne correctement.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Rappel :N'oubliez pas de rafraîchir la page principale pour voir les nouvelles annonces lorsque vous en créez une.
