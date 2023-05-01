@@ -37,6 +37,8 @@ Clonez ce repo sur votre machine locale
 
 Installez les dépendances en tapant npm install dans votre terminal
 
+INSTALLER AUSSI REACT ROUTER DOM EN ENTRANT DANS LE TERMINAL : npm install react-router-dom
+
 Lancez l'application en tapant npm start dans votre terminal
 
 Vous serez automatiquement dirigé sur http://localhost:3000 pour utiliser l'application
